@@ -1,0 +1,18 @@
+.box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin: 25px;
+    .box-header{
+        width: 500px;
+        padding: 20px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        border: 1px solid black;
+    }
+}
